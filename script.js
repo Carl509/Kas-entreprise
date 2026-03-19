@@ -173,7 +173,7 @@ function orderOnWhatsApp() {
   var total = 0;
   for (i = 0; i < cart.length; i++) { total += cart[i].price * cart[i].qty; }
   msg += '----------\nTotal : HTG ' + total.toLocaleString('fr') + '\n\nMerci de confirmer la disponibilite et la livraison.';
-  window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg), '_blank');
+  window.open('https://wa.me/+509 48 61 3794?text=' + encodeURIComponent(msg), '_blank');
 }
 
 // ANIMATIONS AU SCROLL
